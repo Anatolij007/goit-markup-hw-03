@@ -1,0 +1,206 @@
+:root {
+  /*основаные шрифты*/
+  --main-font: Roboto, sans-serif;
+  --secondary-fond: Raleway, sans-serif;
+  /*цвет текста*/
+  --wgt-text: #ffffff;
+  --black-text: #000000;
+  --grey-text: #757575;
+  --blue-text: #2196f3;
+  --main-text: #212121;
+  /*цвет фона*/
+  --wght-fon: #ffffff;
+  --black-fon: #2f303a;
+  --grey-fon: #f5f4fa;
+}
+body {
+  background-color: var(--wght-fon);
+  color: var(--main-text);
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.main-web {
+  font-family: var(--secondary-fond);
+  color: var(--blue-text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.studio {
+  font-family: var(--secondary-fond);
+  color: var(--black-text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.studio-fon {
+  color: var(--wght-fon);
+}
+[href] {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--blue-text);
+}
+
+.link-info {
+  color: var(--grey-text);
+}
+.link-info:hover,
+.link-info:focus {
+  color: var(--blue-text);
+}
+.service {
+  background-color: var(--blue-text);
+  color: var(--wgt-text);
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.service:hover,
+.service:focus {
+  color: var(--wgt-text);
+  background-color: #188ce8;
+}
+.ours-works {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.ours-works:hover,
+.ours-works:focus {
+  background-color: var(--blue-text);
+  color: var(--wgt-text);
+}
+.main-fon {
+  background-color: var(--black-fon);
+}
+.main-text {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--wgt-text);
+}
+.nav-item,
+.link-info {
+  font-family: var(--main-font);
+  color: var(--grey-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link {
+  font-family: var(--main-font);
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.plain {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.ours-homework,
+.dream-teams {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17x;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.teams-spell {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.plain-text {
+  color: var(--grey-text);
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8x;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.link-footer {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+}
+.link-footer-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--wgt-text);
+}
+.link-footer-text:hover,
+.link-footer-text:focus {
+  color: var(--blue-text);
+}
+.ours-teams {
+  background-color: var(--grey-fon);
+}
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--blue-text);
+}
+.foundation-list {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.im-li-foun {
+  font-family: var(--main-font);
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+ul {
+  list-style: none;
+}
