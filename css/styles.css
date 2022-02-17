@@ -31,6 +31,7 @@ p {
 }
 .container {
   display: flex;
+  outline: 2px solid red;
 }
 .main-web {
   font-family: var(--secondary-fond);
@@ -40,6 +41,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  outline: 2px solid red;
 }
 .studio {
   font-family: var(--secondary-fond);
@@ -69,6 +71,7 @@ p {
   color: var(--blue-text);
 }
 .service {
+  display: inline-block;
   background-color: var(--blue-text);
   color: var(--wgt-text);
   cursor: pointer;
@@ -77,10 +80,11 @@ p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  display: flex;
-  align-items: center;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 136px;
   text-align: center;
-  margin: auto;
+  border: 1px transparent;
 }
 .service:hover,
 .service:focus {
@@ -95,6 +99,9 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px transparent;
 }
 .ours-works:hover,
 .ours-works:focus {
@@ -122,6 +129,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 2px solid red;
 }
 .link {
   font-family: var(--main-font);
@@ -196,11 +204,16 @@ p {
   color: var(--blue-text);
 }
 .foundation-list {
+  display: inline-block;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+  border: 1px transparent;
 }
 .im-li-foun {
   font-family: var(--main-font);
