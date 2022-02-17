@@ -21,7 +21,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
 .main-web {
   font-family: var(--secondary-fond);
   color: var(--blue-text);
