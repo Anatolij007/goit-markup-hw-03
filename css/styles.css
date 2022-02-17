@@ -36,7 +36,7 @@ p {
   width: 1600px;
   outline: 2px solid red;
 }
-.main-web {
+.main-web-footer {
   display: inline-block;
   font-family: var(--secondary-fond);
   color: var(--blue-text);
@@ -48,6 +48,16 @@ p {
   margin-left: 215px;
   margin-top: 60px;
   padding-bottom: 20px;
+}
+.main-web-header {
+  display: inline-block;
+  font-family: var(--secondary-fond);
+  color: var(--blue-text);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .studio {
   font-family: var(--secondary-fond);
@@ -91,6 +101,7 @@ p {
   text-align: center;
   border: 1px transparent;
   cursor: pointer;
+  margin-bottom: 200px;
 }
 .foundation-list {
   display: inline-block;
@@ -134,7 +145,7 @@ p {
   margin-top: 60px;
 }
 .main-text {
-  margin-top: 0;
+  padding-top: 200px;
   margin-bottom: 30px;
   font-family: var(--main-font);
   font-weight: 900;
