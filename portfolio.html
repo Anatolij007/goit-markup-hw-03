@@ -18,39 +18,38 @@
   </head>
   <body>
     <!-- Шапка -->
-    <header class="header">
-      <div class="container">
-      <nav class="nav">
-        <a class="main-web-header" href="./index.html">Web<span class="studio">Studio</span></a>
-        <ul class="nav-list">
+    <header class="page-header">
+      <div class="container container-nav">
+        <nav class="nav container-nav">
+          <a class="main-web-header" href="./index.html">Web<span class="studio">Studio</span></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav">
           <li class="nav-item">
-            <a class="link" href="./index.html">Студия</a>
+            <a class="link-info" href="mailtoinfo@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="nav-item">
-            <a class="link link-port" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="link" href="">Контакты</a>
+          <li class="nav-item item-nav"></li>
+          <a class="link-info" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      
-      <ul class="nav-list">
-        <li>
-          <a class="link-info" href="mailtoinfo@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="link-info" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
       </div>
     </header>
     <main>
       <!-- Основа -->
     </main>
-    <section class="foundation">
+    <section class="foundation section">
       <div class="container">
-      <h1>Наши работы</h1>
+      <h1 hidden>Наши работы</h1>
       <ul class="foundation-buttons">
         <li class="foundation-list"><button class="ours-works" type="button">Все</button></li>
         <li class="foundation-list"><button class="ours-works" type="button">Веб-сайты</button></li>
@@ -58,7 +57,7 @@
         <li class="foundation-list"><button class="ours-works" type="button">Дизайн</button></li>
         <li class="foundation-list"><button class="ours-works" type="button">Маркетинг</button></li>
       </ul>
-      <ul>
+      <ul class="flex-container">
         <li class="foundation-link">
           <a class="link-port" href="">
             <img
