@@ -33,11 +33,15 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
+
   width: 1600px;
-  outline: 2px solid red;
 }
 .main-web-footer {
   display: inline-block;
+  margin-left: 215px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+
   font-family: var(--secondary-fond);
   color: var(--blue-text);
   text-decoration: none;
@@ -45,12 +49,12 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-left: 215px;
-  margin-top: 60px;
-  padding-bottom: 20px;
 }
 .main-web-header {
   display: inline-block;
+  margin-right: 70px;
+  margin-left: 215px;
+
   font-family: var(--secondary-fond);
   color: var(--blue-text);
   text-decoration: none;
@@ -86,8 +90,19 @@ p {
 .link-info:focus {
   color: var(--blue-text);
 }
+.nav-list {
+  display: flex;
+}
+.nav-list li {
+}
+
 .service {
   display: inline-block;
+  margin-bottom: 200px;
+  text-align: center;
+  border: 1px transparent;
+  cursor: pointer;
+
   background-color: var(--blue-text);
   color: var(--wgt-text);
   font-family: var(--main-font);
@@ -98,10 +113,6 @@ p {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 136px;
-  text-align: center;
-  border: 1px transparent;
-  cursor: pointer;
-  margin-bottom: 200px;
 }
 .foundation-list {
   display: inline-block;
@@ -118,16 +129,17 @@ p {
   background-color: #188ce8;
 }
 .ours-works {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px transparent;
+  cursor: pointer;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  border-radius: 4px;
-  padding: 6px 22px;
-  border: 1px transparent;
-  cursor: pointer;
 }
 .ours-works:hover,
 .ours-works:focus {
@@ -138,11 +150,11 @@ p {
   background-color: var(--black-fon);
   text-align: center;
   margin-bottom: 94px;
+  outline: 2px solid red;
 }
 .footer-fon {
   display: block;
   background-color: var(--black-fon);
-  margin-top: 60px;
 }
 .main-text {
   padding-top: 200px;
@@ -159,14 +171,24 @@ p {
 }
 .nav-item,
 .link-info {
+  margin: 0;
+  padding: 0;
+
   font-family: var(--main-font);
   color: var(--grey-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin: 0;
-  padding: 0;
+}
+
+.nav-list .nav-item + .nav-item {
+  margin-left: 50px;
+}
+.auth-nav .nav-item + .nav-item {
+  margin-left: 50px;
+}
+.item-nav {
 }
 .link {
   font-family: var(--main-font);
@@ -178,23 +200,25 @@ p {
 }
 
 .plain {
+  margin-bottom: 10px;
+
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .ours-homework,
 .dream-teams {
+  padding-bottom: 50px;
+
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17x;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
 }
 .dream-teams {
   margin-top: 50px;
@@ -211,14 +235,15 @@ p {
   text-align: center;
 }
 .plain-text {
+  padding-right: 30px;
+  margin-bottom: 94px;
+
   color: var(--grey-text);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8x;
   letter-spacing: 0.03em;
-  padding-right: 30px;
-  margin-bottom: 94px;
 }
 .text-port {
   color: var(--grey-text);
@@ -229,30 +254,22 @@ p {
   letter-spacing: 0.03em;
 }
 .teams-text {
+  text-align: center;
+  padding-bottom: 124px;
+
   color: var(--grey-text);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8x;
   letter-spacing: 0.03em;
-  text-align: center;
-  padding-bottom: 124px;
 }
 .link-footer-one {
   display: inline-block;
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff99;
   padding-bottom: 9px;
   padding-top: 9px;
   margin-left: 215px;
-}
-.link-footer-two {
-  display: inline-block;
+
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -260,11 +277,25 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff99;
+}
+.link-footer-two {
+  display: inline-block;
   margin-left: 215px;
   margin-bottom: 60px;
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
 }
 .link-footer-text {
   display: inline-block;
+  margin-left: 215px;
+  padding-bottom: 9px;
+
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -272,8 +303,6 @@ p {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--wgt-text);
-  margin-left: 215px;
-  padding-bottom: 9px;
 }
 .link-footer-text:hover,
 .link-footer-text:focus {
@@ -295,8 +324,18 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 ul {
   list-style: none;
   padding-inline-start: 0px;
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 2px solid blue;
 }
