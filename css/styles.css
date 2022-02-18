@@ -76,6 +76,7 @@ p {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 .foundation-link:nth-child(3n) {
   margin-right: 0px;
@@ -185,6 +186,9 @@ p {
   padding-bottom: 94px;
 }
 .item-nav {
+}
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 .link {
   font-family: var(--main-font);
