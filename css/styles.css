@@ -66,17 +66,26 @@ p {
 }
 .nav-list {
   display: flex;
+  /*margin-bottom: 50px;*/
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.div-list {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .foundation-link {
-  /*width: 380px;*/
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 120px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
 }
 .foundation-link:nth-child(3n) {
   margin-right: 0px;
@@ -86,7 +95,6 @@ p {
 }
 .service {
   display: inline-block;
-  margin-bottom: 200px;
   text-align: center;
   border: 1px transparent;
   cursor: pointer;
@@ -104,7 +112,6 @@ p {
 }
 .foundation-list {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .service:hover,
@@ -133,14 +140,17 @@ p {
 .hero {
   background-color: var(--black-fon);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .footer-fon {
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: block;
   background-color: var(--black-fon);
 }
 .main-text {
-  padding-top: 200px;
   margin-bottom: 30px;
   font-family: var(--main-font);
   font-weight: 900;
@@ -181,6 +191,11 @@ p {
 .teams-item img {
   margin-bottom: 30px;
 }
+.teams-item {
+  background-color: var(--wght-fon);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -189,6 +204,8 @@ p {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link {
   font-family: var(--main-font);
@@ -211,12 +228,12 @@ p {
 }
 .ours-homework,
 .dream-teams {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17x;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -225,11 +242,14 @@ p {
   display: block;
 }
 .homework,
-.teams-nav,
-.main-plain {
+.teams-nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.main-plain {
+  display: flex;
+  justify-content: space-between;
 }
 .main-list {
   width: 270px;
@@ -239,25 +259,24 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .teams-spell {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .plain-text {
-  padding-right: 30px;
-
   color: var(--grey-text);
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8x;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .text-port {
@@ -265,17 +284,17 @@ p {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8x;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 .teams-text {
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   color: var(--grey-text);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8x;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -283,9 +302,8 @@ p {
   display: none;
 }
 .link-footer-one {
-  display: inline-block;
-  padding-bottom: 9px;
-  padding-top: 9px;
+  display: block;
+  margin-bottom: 9px;
 
   font-family: var(--main-font);
   font-style: normal;
@@ -296,10 +314,7 @@ p {
   color: #ffffff99;
 }
 .link-footer-two {
-  display: inline-block;
-
-  margin-bottom: 60px;
-
+  display: block;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -310,13 +325,13 @@ p {
 }
 .link-footer-text {
   display: inline-block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--wgt-text);
 }
@@ -358,13 +373,16 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
-
+.section-ours {
+  padding-top: 0px;
+}
 .main-web-footer {
-  display: inline-block;
+  display: block;
 
-  margin-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-family: var(--secondary-fond);
   color: var(--blue-text);
