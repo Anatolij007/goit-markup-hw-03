@@ -137,10 +137,15 @@ p {
   color: var(--wgt-text);
 }
 .hero {
+  max-width: 1600px;
   background-color: var(--black-fon);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
 }
 
 .footer-fon {
@@ -150,12 +155,15 @@ p {
   background-color: var(--black-fon);
 }
 .main-text {
+  width: 696px;
   margin-bottom: 30px;
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
